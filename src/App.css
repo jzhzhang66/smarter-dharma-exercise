@@ -8,3 +8,19 @@
     height: 300px;
     padding-top: 60px;
 }
+
+.flex-column {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.drawer {
+    width: 250px;
+    height: 500px;
+    background-color: rgb(61, 58, 58);
+}
+
+.item {
+    color: white;
+    z-index: 100;
+}
