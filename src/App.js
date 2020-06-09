@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './header';
 import SideNav from './sideNav';
+
 class App extends React.Component {
 
   render() {
@@ -13,7 +14,6 @@ class App extends React.Component {
       </div>
     )
   }
-
 }
 
 export default App;

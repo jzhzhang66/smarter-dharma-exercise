@@ -11,7 +11,7 @@
 
 .flex-column {
     padding-top: 50px;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .drawer {
@@ -20,7 +20,15 @@
     background-color: rgb(61, 58, 58);
 }
 
-.item {
+.item-not-selected {
     color: white;
     z-index: 100;
+}
+
+.item-selected {
+    color: rgb(212, 155, 155);
+}
+
+.item-not-selected:hover {
+    color: rgb(212, 155, 155);
 }
