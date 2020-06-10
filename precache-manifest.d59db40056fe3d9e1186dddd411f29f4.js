@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9228791c7e9731770bdf4aac064add2f",
+    "revision": "ddc8bfc5c5fa99e26744a9d1ac8804ce",
     "url": "/smarter-dharma-exercise/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smarter-dharma-exercise/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "f7f685b08f322b1cc052",
-    "url": "/smarter-dharma-exercise/static/css/main.e9e225c1.chunk.css"
+    "revision": "6f0b75dd2163592aef9b",
+    "url": "/smarter-dharma-exercise/static/css/main.456d5393.chunk.css"
   },
   {
     "revision": "34e47ec6caefbc304dfb",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smarter-dharma-exercise/static/js/2.32354f5e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7f685b08f322b1cc052",
+    "revision": "6f0b75dd2163592aef9b",
     "url": "/smarter-dharma-exercise/static/js/main.aa5d7d90.chunk.js"
   },
   {
