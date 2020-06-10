@@ -30,7 +30,7 @@ class China extends React.Component {
     }
 
     componentDidMount() {
-        const chinaCities = ["Anqing", "Bengbu", "Hefei", "Huainan", "Huangshan", "Shexian", "Tongcheng", "Tongling", "Wuhu", "Xuancheng",
+        const chinaCities = ["Anqing", "Bengbu", "Hefei", "Huainan", "Qingdao", "Shexian", "Tongcheng", "Tongling", "Wuhu", "Xuancheng",
             "Beijing", "Chongqing", "Hechuan", "Wanzhou", "Fuzhou", "Longyan", "Nanping", "Quanzhou", "Sanming", "Shaowu",
             "Xiamen", "Zhangzhou", "Dunhuang", "Jiuquan", "Lanzhou", "Pingliang", "Tianshui", "Wuwei", "Yumen", "Jiangmen"]
         useApi(chinaCities).then((res) => {

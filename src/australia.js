@@ -30,9 +30,9 @@ class Australia extends React.Component {
     }
 
     componentDidMount() {
-        const australiaCities = ["Armidale", "Ballina", "Balranald", "Bathurst", "Bega", "Bourke", "Bowral", "Camden", "Cobar", "Cooma",
+        const australiaCities = ["Armidale", "Ballina", "Bathurst", "Bega", "Bourke", "Bowral", "Camden", "Cobar", "Cooma",
          "Corowa", "Dubbo", "Forbes", "Forster", "Gosford", "Goulburn", "Grafton", "Inverell", "Kempsey", "Kiama", 
-         "Lismore", "Maitland", "Narrabri", "Penrith", "Queanbeyan", "Singleton", "Sydney", "Temora", "Wauchope", "Wellington"]
+         "Lismore", "Maitland", "Narrabri", "Penrith", "Queanbeyan", "Singleton", "Sydney", "Wellington", "Perth", "Brisbane", "Hobart"]
         useApi(australiaCities).then((res) => {
             this.setState(() => {
                 return {

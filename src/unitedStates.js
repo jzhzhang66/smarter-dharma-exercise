@@ -30,7 +30,7 @@ class UnitedStates extends React.Component {
     }
 
     componentDidMount() {
-        const usCities = ["New York City", "Vancouver", "Boston", "Baltimore", "Miami", "Houston", "Dallas", "Los Angelos", "Philadelphia", "San Diego",
+        const usCities = ["Rochester", "Vancouver", "Boston", "Baltimore", "Miami", "Houston", "Dallas", "Los Angelos", "Philadelphia", "San Diego",
     "San Antonio", "Charlotte", "Seattle", "Memphis", "Atlanta", "Sacramento", "Kansas City", "Irvine", "San Francisco", "Tampa", 
     "Oakland", "Cleveland", "Wichita", "Honolulu", "Pittsburgh", "Detroit", "Portland", "Nashville", "Las Vegas", "Raleigh"]
         useApi(usCities).then((res) => {

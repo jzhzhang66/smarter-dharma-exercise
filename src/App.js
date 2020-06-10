@@ -14,7 +14,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div class="main-div">
+      <div className="main-div">
         <Header />
         <SideNav />
         <Switch>
