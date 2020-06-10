@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/smarter-dharma-exercise/precache-manifest.d59db40056fe3d9e1186dddd411f29f4.js"
+  "/smarter-dharma-exercise/precache-manifest.4f5346364cefe722a68e9e544791e7fa.js"
 );
 
 self.addEventListener('message', (event) => {
