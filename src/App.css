@@ -18,6 +18,7 @@
     width: 250px;
     height: 500px;
     background-color: rgb(61, 58, 58);
+    display: inline-block;
 }
 
 .item-not-selected {
@@ -35,10 +36,28 @@
 
 .main-container {
     padding-left: 300px;
+    display: inline-block;
 }
 
 .square {
     width: 150px;
     height: 150px;
-    background-color: grey;
+    background-color: rgb(221, 199, 171);
+    margin-left: 50px;
+    box-shadow: 3px 3px grey;
+}
+
+.row {
+    padding: 20px;
+}
+
+.city {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.temp {
+    padding-left: 10px;
+    padding-top: 50px;
 }

@@ -31,7 +31,7 @@ class India extends React.Component {
     }
 
     componentDidMount() {
-        const india = ["Mumbai", "Delhi"]
+        const india = ["Mumbai", "Delhi", "Bangalore", "Hyderabad", "Ahmedabad", "Chennai"]
         // , "Bangalore", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata", "Surat", "Pune", "Jaipur", "Lucknow",
         //     "Kanpur", "Nagpur", "Indore", "Thane", "Bhopal", "Visakhapatnam", "Patna", "Vadodara", "Ghaziabad", "Ludhiana", "Agra", "Nashik", 
         //     "Faridabad", "Meerut", "Rajkot", "Varanasi", "Srinagar", "Aurangabad", "Gaya"]
@@ -49,7 +49,7 @@ class India extends React.Component {
  
 
     render() {
-        let toRender = this.state.information.map(x => <Square city={x.city} temp={x.temp} />)
+        let toRender = this.state.information.map(x => <Square city={x.city} temp={x.temp + " °C" } />)
         toRender = chunk(toRender, 5)
         return (
             <div className="main-container">
