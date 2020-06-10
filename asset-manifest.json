@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/smarter-dharma-exercise/static/css/main.9389860e.chunk.css",
-    "main.js": "/smarter-dharma-exercise/static/js/main.b9588b5b.chunk.js",
-    "main.js.map": "/smarter-dharma-exercise/static/js/main.b9588b5b.chunk.js.map",
+    "main.js": "/smarter-dharma-exercise/static/js/main.aa5d7d90.chunk.js",
+    "main.js.map": "/smarter-dharma-exercise/static/js/main.aa5d7d90.chunk.js.map",
     "runtime-main.js": "/smarter-dharma-exercise/static/js/runtime-main.f66e4ade.js",
     "runtime-main.js.map": "/smarter-dharma-exercise/static/js/runtime-main.f66e4ade.js.map",
     "static/css/2.af3c1da9.chunk.css": "/smarter-dharma-exercise/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.2b8432d5.chunk.js": "/smarter-dharma-exercise/static/js/2.2b8432d5.chunk.js",
-    "static/js/2.2b8432d5.chunk.js.map": "/smarter-dharma-exercise/static/js/2.2b8432d5.chunk.js.map",
+    "static/js/2.32354f5e.chunk.js": "/smarter-dharma-exercise/static/js/2.32354f5e.chunk.js",
+    "static/js/2.32354f5e.chunk.js.map": "/smarter-dharma-exercise/static/js/2.32354f5e.chunk.js.map",
     "index.html": "/smarter-dharma-exercise/index.html",
-    "precache-manifest.7c65c8c662c442e933e50d77b9cd230f.js": "/smarter-dharma-exercise/precache-manifest.7c65c8c662c442e933e50d77b9cd230f.js",
+    "precache-manifest.7ef4163d386d46a447cb67b02c9602f2.js": "/smarter-dharma-exercise/precache-manifest.7ef4163d386d46a447cb67b02c9602f2.js",
     "service-worker.js": "/smarter-dharma-exercise/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/smarter-dharma-exercise/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.9389860e.chunk.css.map": "/smarter-dharma-exercise/static/css/main.9389860e.chunk.css.map",
-    "static/js/2.2b8432d5.chunk.js.LICENSE.txt": "/smarter-dharma-exercise/static/js/2.2b8432d5.chunk.js.LICENSE.txt",
+    "static/js/2.32354f5e.chunk.js.LICENSE.txt": "/smarter-dharma-exercise/static/js/2.32354f5e.chunk.js.LICENSE.txt",
     "static/media/Logo.png": "/smarter-dharma-exercise/static/media/Logo.f5e46e67.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f66e4ade.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.2b8432d5.chunk.js",
+    "static/js/2.32354f5e.chunk.js",
     "static/css/main.9389860e.chunk.css",
-    "static/js/main.b9588b5b.chunk.js"
+    "static/js/main.aa5d7d90.chunk.js"
   ]
 }
