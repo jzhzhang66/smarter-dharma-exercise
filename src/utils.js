@@ -8,7 +8,7 @@ export async function useApi(cities) {
 		const res = await axios.get('https://api.weatherbit.io/v2.0/current', {
 			params: {
 				city: cities[i],
-				key: "d1f066326de5414ebbf24be733d04166"
+				key: "5243b6821b1446deaefcbda25827b571"
 			}
 		})
 		toReturn.push(res.data)
