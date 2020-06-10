@@ -15,13 +15,14 @@ class India extends React.Component {
 
     cleanInfo(india) {
         var i;
-        const toSet = []
+        let toSet = []
         for (i = 0; i < india.length; i++) {
             toSet.push({
                 city: india[i],
                 temp: this.state.information[i].data[0].temp
             })
         }
+        toSet = toSet.map(x => <Square city={x.city} temp={x.temp} />)
         this.setState(() => {
             return {
                 information: chunk(toSet, 5)
