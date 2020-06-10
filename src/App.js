@@ -6,6 +6,9 @@ import SideNav from './sideNav';
 import { BrowserRouter as Switch, Route } from 'react-router-dom';
 import India from './india';
 import UnitedStates from './unitedStates';
+import Italy from './italy';
+import China from './china';
+import Australia from './australia';
 
 class App extends React.Component {
 
@@ -17,6 +20,9 @@ class App extends React.Component {
         <Switch>
           <Route path="/India" component={India} />
           <Route path="/UnitedStates" component={UnitedStates} />
+          <Route path="/Australia" component={Australia} />
+          <Route path="/China" component={China} />
+          <Route path="/Italy" component={Italy} />
         </Switch>
       </div>
     )
