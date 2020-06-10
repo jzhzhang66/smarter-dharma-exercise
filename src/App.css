@@ -32,3 +32,13 @@
 .item-not-selected:hover {
     color: rgb(212, 155, 155);
 }
+
+.main-container {
+    padding-left: 300px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: grey;
+}
