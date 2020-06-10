@@ -1,5 +1,5 @@
 import React from 'react';
-import { useApi } from './utils';
+import { useApi, emoji } from './utils';
 import Square from './square';
 import { chunk } from 'lodash';
 
@@ -49,7 +49,7 @@ class India extends React.Component {
  
 
     render() {
-        let toRender = this.state.information.map(x => <Square city={x.city} temp={x.temp + " °C" } />)
+        let toRender = this.state.information.map(x => <Square city={x.city} temp={x.temp + " °C " } icon={emoji(x.temp)}/>)
         toRender = chunk(toRender, 5)
         return (
             <div className="main-container">

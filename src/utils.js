@@ -16,3 +16,18 @@ export async function useApi(cities) {
 
 	return toReturn
 }
+
+export function emoji(temp) {
+	if (temp > 25) {
+		return "🔥"
+	}
+	else if (temp >= 15 && temp <= 25) {
+		return "☀️"
+	}
+	else if (temp >= 5 && temp < 15) {
+		return "☁️"
+	}
+	else {
+		return "❄️"
+	}
+}

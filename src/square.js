@@ -9,6 +9,7 @@ class Square extends React.Component {
             <div className="square">
                 <div className="city">{this.props.city}</div>
                 <div className="temp">{this.props.temp}</div>
+                <div className="icon">{this.props.icon}</div>
             </div>
         )
     }
