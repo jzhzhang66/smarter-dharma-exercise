@@ -22,10 +22,9 @@ class India extends React.Component {
                 temp: this.state.information[i].data[0].temp
             })
         }
-        toSet = toSet.map(x => <Square city={x.city} temp={x.temp} />)
         this.setState(() => {
             return {
-                information: chunk(toSet, 5)
+                information: toSet 
             }
         })
         console.log(this.state.information)
@@ -50,9 +49,11 @@ class India extends React.Component {
  
 
     render() {
+        let toRender = this.state.information.map(x => <Square city={x.city} temp={x.temp} />)
+        toRender = chunk(toRender, 5)
         return (
             <div className="main-container">
-                <Square city="Mumbai" temp="123" />
+                {toRender.map(x => <div className="row">{x}</div> )}
             </div>
         )
     }
