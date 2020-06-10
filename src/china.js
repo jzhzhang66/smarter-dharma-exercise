@@ -3,7 +3,7 @@ import { useApi, emoji } from './utils';
 import Square from './square';
 import { chunk } from 'lodash';
 
-class India extends React.Component {
+class China extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -24,38 +24,37 @@ class India extends React.Component {
         }
         this.setState(() => {
             return {
-                information: toSet 
+                information: toSet
             }
         })
     }
 
     componentDidMount() {
-        const indiaCities = ["Mumbai", "Delhi", "Bangalore", "Hyderabad", "Ahmedabad", "Chennai"]
-        // , "Bangalore", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata", "Surat", "Pune", "Jaipur", "Lucknow",
-        //     "Kanpur", "Nagpur", "Indore", "Thane", "Bhopal", "Visakhapatnam", "Patna", "Vadodara", "Ghaziabad", "Ludhiana", "Agra", "Nashik", 
-        //     "Faridabad", "Meerut", "Rajkot", "Varanasi", "Srinagar", "Aurangabad", "Gaya"]
-        useApi(indiaCities).then((res) => {
+        const chinaCities = ["Anqing", "Bengbu", "Hefei", "Huainan", "Huangshan", "Shexian", "Tongcheng", "Tongling", "Wuhu", "Xuancheng",
+            "Beijing", "Chongqing", "Hechuan", "Wanzhou", "Fuzhou", "Longyan", "Nanping", "Quanzhou", "Sanming", "Shaowu",
+            "Xiamen", "Zhangzhou", "Dunhuang", "Jiuquan", "Lanzhou", "Pingliang", "Tianshui", "Wuwei", "Yumen", "Jiangmen"]
+        useApi(chinaCities).then((res) => {
             this.setState(() => {
                 return {
                     loading: false,
                     information: res
                 }
             })
-            this.cleanInfo(indiaCities)
+            this.cleanInfo(chinaCities)
         })
     }
 
- 
+
 
     render() {
-        let toRender = this.state.information.map(x => <Square city={x.city} temp={x.temp + " °C " } icon={emoji(x.temp)}/>)
+        let toRender = this.state.information.map(x => <Square city={x.city} temp={x.temp + " °C "} icon={emoji(x.temp)} />)
         toRender = chunk(toRender, 5)
         return (
             <div>
-                {toRender.map(x => <div className="row">{x}</div> )}
+                {toRender.map(x => <div className="row">{x}</div>)}
             </div>
         )
     }
 }
 
-export default India
+export default China

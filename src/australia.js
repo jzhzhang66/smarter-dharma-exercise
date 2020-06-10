@@ -3,7 +3,7 @@ import { useApi, emoji } from './utils';
 import Square from './square';
 import { chunk } from 'lodash';
 
-class India extends React.Component {
+class Australia extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -30,18 +30,17 @@ class India extends React.Component {
     }
 
     componentDidMount() {
-        const indiaCities = ["Mumbai", "Delhi", "Bangalore", "Hyderabad", "Ahmedabad", "Chennai"]
-        // , "Bangalore", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata", "Surat", "Pune", "Jaipur", "Lucknow",
-        //     "Kanpur", "Nagpur", "Indore", "Thane", "Bhopal", "Visakhapatnam", "Patna", "Vadodara", "Ghaziabad", "Ludhiana", "Agra", "Nashik", 
-        //     "Faridabad", "Meerut", "Rajkot", "Varanasi", "Srinagar", "Aurangabad", "Gaya"]
-        useApi(indiaCities).then((res) => {
+        const australiaCities = ["Armidale", "Ballina", "Balranald", "Bathurst", "Bega", "Bourke", "Bowral", "Camden", "Cobar", "Cooma",
+         "Corowa", "Dubbo", "Forbes", "Forster", "Gosford", "Goulburn", "Grafton", "Inverell", "Kempsey", "Kiama", 
+         "Lismore", "Maitland", "Narrabri", "Penrith", "Queanbeyan", "Singleton", "Sydney", "Temora", "Wauchope", "Wellington"]
+        useApi(australiaCities).then((res) => {
             this.setState(() => {
                 return {
                     loading: false,
                     information: res
                 }
             })
-            this.cleanInfo(indiaCities)
+            this.cleanInfo(australiaCities)
         })
     }
 
@@ -58,4 +57,4 @@ class India extends React.Component {
     }
 }
 
-export default India
+export default Australia

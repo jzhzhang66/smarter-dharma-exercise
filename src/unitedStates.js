@@ -3,7 +3,7 @@ import { useApi, emoji } from './utils';
 import Square from './square';
 import { chunk } from 'lodash';
 
-class India extends React.Component {
+class UnitedStates extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -30,18 +30,17 @@ class India extends React.Component {
     }
 
     componentDidMount() {
-        const indiaCities = ["Mumbai", "Delhi", "Bangalore", "Hyderabad", "Ahmedabad", "Chennai"]
-        // , "Bangalore", "Hyderabad", "Ahmedabad", "Chennai", "Kolkata", "Surat", "Pune", "Jaipur", "Lucknow",
-        //     "Kanpur", "Nagpur", "Indore", "Thane", "Bhopal", "Visakhapatnam", "Patna", "Vadodara", "Ghaziabad", "Ludhiana", "Agra", "Nashik", 
-        //     "Faridabad", "Meerut", "Rajkot", "Varanasi", "Srinagar", "Aurangabad", "Gaya"]
-        useApi(indiaCities).then((res) => {
+        const usCities = ["New York City", "Vancouver", "Boston", "Baltimore", "Miami", "Houston", "Dallas", "Los Angelos", "Philadelphia", "San Diego",
+    "San Antonio", "Charlotte", "Seattle", "Memphis", "Atlanta", "Sacramento", "Kansas City", "Irvine", "San Francisco", "Tampa", 
+    "Oakland", "Cleveland", "Wichita", "Honolulu", "Pittsburgh", "Detroit", "Portland", "Nashville", "Las Vegas", "Raleigh"]
+        useApi(usCities).then((res) => {
             this.setState(() => {
                 return {
                     loading: false,
                     information: res
                 }
             })
-            this.cleanInfo(indiaCities)
+            this.cleanInfo(usCities)
         })
     }
 
@@ -58,4 +57,4 @@ class India extends React.Component {
     }
 }
 
-export default India
+export default UnitedStates 
